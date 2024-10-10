@@ -8,9 +8,9 @@
   }
   
   .publicidad-imagen {
-    max-width: 100%; /* Ajusta el ancho de la imagen */
+    max-width: 50%; /* Ajusta el ancho de la imagen */
     height: auto;
-    margin-right: 90px; /* Espaciado entre la imagen y el texto */
+    margin-right: 30px; /* Espaciado entre la imagen y el texto */
   }
   
   .publicidad-texto {
