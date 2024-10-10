@@ -1,0 +1,27 @@
+/* src/components/Card.css */
+
+.card {
+    width: 300px; /* Ancho de la tarjeta */
+    height: 200px; /* Alto de la tarjeta */
+    background-size: cover; /* Asegura que la imagen cubra toda la tarjeta */
+    background-position: center; /* Centra la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto de profundidad */
+    position: relative; /* Para el posicionamiento absoluto del texto */
+    overflow: hidden; /* Oculta cualquier contenido que sobresalga */
+    transition: transform 0.3s; /* Transición suave para el hover */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
+  }
+  
+  .card-description {
+    position: absolute; /* Posiciona la descripción sobre la imagen */
+    bottom: 10px; /* Espacio desde la parte inferior */
+    left: 10px; /* Espacio desde la izquierda */
+    color: white; /* Color del texto */
+    font-size: 1rem; /* Tamaño de fuente de la descripción */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para mejor legibilidad */
+  }
+  

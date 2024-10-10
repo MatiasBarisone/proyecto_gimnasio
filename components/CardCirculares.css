@@ -1,0 +1,29 @@
+/* src/components/CardCircular.css */
+.circular-card {
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: 150px; /* Debe ser igual al ancho para que sea circular */
+    border-radius: 50%; /* Hace que la tarjeta sea circular */
+    background-size: cover; /* Asegura que la imagen cubra toda la tarjeta */
+    background-position: center; /* Centra la imagen */
+    display: flex; /* Usar flexbox para alinear el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    position: relative; /* Para posicionar el texto */
+    overflow: hidden; /* Oculta cualquier contenido que desborde */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto de profundidad */
+    transition: transform 0.3s; /* Añadir animación al hover */
+    background-color: aliceblue;
+  }
+  
+  .circular-card:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+  }
+  
+  .descripcion {
+    position: absolute; /* Para que el texto se superponga */
+    color: rgb(255, 255, 255); /* Color del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    text-align: center; /* Alinear el texto al centro */
+    padding: 20px; /* Espaciado interno */
+  }
+  

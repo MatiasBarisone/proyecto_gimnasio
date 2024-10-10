@@ -1,0 +1,28 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Asegura que se mantenga en la parte inferior */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido */
+  }
+  
+  .whatsapp-logo {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: 100px; /* Asegúrate de que sea cuadrado para mantener la forma */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    margin-top: 10px; /* Espacio entre el texto y el logo */
+    transition: transform 0.3s; /* Añadir animación al hover */
+  }
+  
+  .whatsapp-logo:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+  }
+  
+  

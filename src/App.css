@@ -1,0 +1,52 @@
+/* App.css o archivo CSS global */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; /* Asegura que el box model no desborde */
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  /* Modifica esto en App.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh; /* Cambiado a min-height */
+  }
+  
+  .card-container {
+    display: flex; /* Usar Flexbox para alinear las tarjetas horizontalmente */
+    justify-content: center; /* Centrar horizontalmente las tarjetas */
+    gap: 16px; /* Espacio entre las tarjetas */
+    background-color: rgba(24, 22, 22, 0.993);
+    padding-bottom: 30px;
+  }
+  .card-container1 {
+    display: flex; /* Usar Flexbox para alinear las tarjetas horizontalmente */
+    justify-content: center; /* Centrar horizontalmente las tarjetas */
+    gap: 16px; /* Espacio entre las tarjetas */
+    background-color: rgba(0, 0, 0, 0.993);
+    padding-bottom: 30px;
+  }
+  .video-container {
+    position: relative;
+    width: 100vw; /* Asegura que ocupe todo el ancho de la ventana */
+    height: 70vh; /* El video ocupará el 70% de la pantalla */
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .video-container iframe {
+    width: 100vw; /* El iframe ocupa todo el ancho */
+    height: 100%;
+    border: none; /* Sin bordes */
+    margin: 0; /* Elimina cualquier margen que pudiera afectar */
+    padding: 0;
+    display: block; /* Asegura que se comporte como un bloque */
+    pointer-events: none; /* Desactiva la interacción */
+  }
+  

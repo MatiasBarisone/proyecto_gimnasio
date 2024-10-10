@@ -1,0 +1,17 @@
+.video-container {
+  position: relative;
+  width: 100vw; /* Asegura que ocupe todo el ancho de la ventana */
+  height: 70vh; /* El video ocupará el 70% de la pantalla */
+  overflow: hidden;
+  z-index: 1;
+}
+
+.video-container iframe {
+  width: 100%; /* Cambiado a 100% para ajustar correctamente */
+  height: 100%;
+  border: none; /* Sin bordes */
+  margin: 0; /* Elimina cualquier margen que pudiera afectar */
+  padding: 0;
+  display: block; /* Asegura que se comporte como un bloque */
+  pointer-events: none; /* Desactiva la interacción */
+}

@@ -1,0 +1,20 @@
+.publicidad-container {
+    display: flex;
+    align-items: center; /* Para centrar verticalmente */
+    justify-content: space-between; /* Espacio entre la imagen y el texto */
+    background-color: rgba(24, 22, 22, 0.993);
+    color: rgb(238, 255, 6);
+    padding: 30px;
+  }
+  
+  .publicidad-imagen {
+    max-width: 100%; /* Ajusta el ancho de la imagen */
+    height: auto;
+    margin-right: 90px; /* Espaciado entre la imagen y el texto */
+  }
+  
+  .publicidad-texto {
+    flex: 1; /* El texto tomará el resto del espacio disponible */
+    text-align: left;
+  }
+  
